@@ -1,3 +1,6 @@
+#wrong answer
+import sys
+input=sys.stdin.readline
 n,m=input().split()
 numbers=list(map(int,input().split()))
 num_=[0]*len(numbers)
