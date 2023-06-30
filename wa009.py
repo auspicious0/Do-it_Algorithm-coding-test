@@ -21,4 +21,3 @@ for i in range(4):
 if n>0:
     #도저히 모르겠다!
 
-print(s)
