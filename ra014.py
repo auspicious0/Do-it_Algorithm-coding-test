@@ -3,7 +3,7 @@ import sys
 input=sys.stdin.readline
 
 n=int(input())
-numbers=PriorityQueue()
+numbers=PriorityQueue()    
 
 for i in range(n):
     k=int(input())
