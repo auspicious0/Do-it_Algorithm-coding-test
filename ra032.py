@@ -23,3 +23,20 @@ for i in range(n-1,-1,-1):
         k%=num[i]
 
 print(count)
+
+# #우선순위 큐 사용법 1
+# from queue import PriorityQueue
+# myque=PriorityQueue()
+# put(data)
+# get()
+# qsize()
+# emtpy()
+
+
+# #우선순위 큐 사용법 2
+# import heapq
+# mylist=[]
+# heapq.heappush(mylist,1)
+# heappush(mylist,data)
+# heappop(mlist)
+# heapify(mylist)
