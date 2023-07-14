@@ -11,10 +11,7 @@
 # print(-sum(s[:minus])+sum(s[minus:]))
 s=list(input().split('-'))
 result=0
-if len(s)==1:
-    print(sum(list(map(int,s[0].split('+')))))
-else:
-    result=sum(list(map(int,s[0].split('+'))))
-    for i in range(1,len(s)):
-        result-=sum(list(map(int,s[i].split('+'))))
-    print(result)
+for i in range(len(s)):
+    if i==0: result+=sum(list(map(int,s[i].split('+'))))
+    else: result-=sum(list(map(int,s[i].split('+'))))
+print(result)
